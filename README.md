@@ -8,7 +8,7 @@ The workflow includes:
 2. **Feature Engineering** – Encoding categorical variables, creating a clean and efficient dataset for modeling.  
 3. **Random Forest Classifier** – Building the model to classify whether income is >50K or ≤50K.  
 4. **Feature Importance** – Identifying the most influential features contributing to the classification.  
-5. **Hyperparameter Tuning** – Applying GridSearchCV to improve model accuracy.  
+5. **Hyperparameter Tuning** – Applying RandomizedSearchCV to improve model accuracy.  
 
 The model achieved higher accuracy after hyperparameter tuning, demonstrating the importance of optimization.  
 
@@ -26,7 +26,7 @@ Bu notebook, **Income Evaluation Dataset** kullanılarak gelir seviyelerini sın
 2. **Özellik Mühendisliği (Feature Engineering)** – Kategorik değişkenleri encode etme ve modelleme için temiz/verimli bir veri seti oluşturma.  
 3. **Random Forest Classifier** – Gelirin >50K veya ≤50K olup olmadığını sınıflandırmak için modelin kurulması.  
 4. **Özellik Önem Düzeyleri (Feature Importance)** – Sınıflandırmada en çok etkisi olan değişkenlerin belirlenmesi.  
-5. **Hiperparametre Optimizasyonu** – GridSearchCV kullanılarak modelin doğruluk (accuracy) değerinin artırılması.  
+5. **Hiperparametre Optimizasyonu** – RandomizedSearchCV kullanılarak modelin doğruluk (accuracy) değerinin artırılması.  
 
 Model, hiperparametre optimizasyonu sonrasında daha yüksek accuracy elde etmiş ve modelin iyileştirilmesinin önemini göstermiştir.  
 
