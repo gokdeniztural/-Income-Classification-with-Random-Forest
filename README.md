@@ -1,4 +1,4 @@
-# Income Classification with Random Forest  
+# Income Classification with Random Forest/ 86.4% Accuracy 
 
 This notebook focuses on classifying income levels using the **Income Evaluation Dataset**.  
 
